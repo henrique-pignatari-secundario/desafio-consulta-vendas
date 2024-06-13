@@ -1,4 +1,4 @@
-package com.devsuperior.dsmeta.controllers;
+package com.devsuperior.dsmeta.dto;
 
 public class SaleSummaryDTO {
     private String sellerName;

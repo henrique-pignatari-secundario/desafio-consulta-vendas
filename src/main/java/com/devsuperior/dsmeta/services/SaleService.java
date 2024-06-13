@@ -4,11 +4,10 @@ import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
 import java.util.List;
 import java.util.Optional;
 
-import com.devsuperior.dsmeta.controllers.SaleSummaryDTO;
+import com.devsuperior.dsmeta.dto.SaleSummaryDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -44,4 +43,6 @@ public class SaleService {
 
 		return repository.saleSummaryFrom(minDate, maxDate);
 	}
+
+
 }
